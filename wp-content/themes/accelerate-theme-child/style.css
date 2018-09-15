@@ -66,9 +66,25 @@ div.case-study-images {
     float: left;
     width: 606px;
 
+
 }
 div.case-study-images img {
-      display: block;
       margin-bottom: 50px;
       border: 1px solid #ddd;
+      padding-right: 25px;
+
+}
+
+.featured-work h3 {
+   text-align: center;
+}
+.individual-featured-work {
+    list-style-type: none;
+    float: left;
+    padding-left: 10px;
+
+}
+.recent-posts h6 {
+     color: #45ac9d;
+
 }
