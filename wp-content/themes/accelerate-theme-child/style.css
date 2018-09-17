@@ -62,6 +62,15 @@ aside.case-study-sidebar {
     width: 314px;
     margin: 0 40px 0 0;
 }
+
+aside.case-study-sidebar a {
+    color: #45ac9d;
+}
+aside.case-study-sidebar h5 {
+    color: #d4d4d4;
+    font-size: 14px;
+}
+
 div.case-study-images {
     float: left;
     width: 606px;
@@ -84,6 +93,11 @@ div.case-study-images img {
     padding-left: 10px;
 
 }
+.individual-featured-work  {
+    width: 
+}
+
+
 .recent-posts h6 {
      color: #45ac9d;
 

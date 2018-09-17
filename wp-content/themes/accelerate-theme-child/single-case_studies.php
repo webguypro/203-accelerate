@@ -30,11 +30,12 @@ get_header(); ?>
       <aside class="case-study-sidebar">
         <h2><?php the_title(); ?></h2>
         <h5><?php echo $services; ?></h5>
-        <h6>Client: <?php echo $client; ?></h6>
+
+				<h6>Client: <?php echo $client; ?></h6>
 
 	       <?php the_content(); ?>
 
-         <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+         <p><strong><a href="<?php echo $link; ?>">View Project ></a></strong></p>
     </aside>
 
     <div class="case-study-images">

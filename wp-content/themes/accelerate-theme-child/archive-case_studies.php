@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content sidebar">
-		<div class="main-content" role="main">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post();
         $image_1 = get_field("image_1");
         $size = "medium";
@@ -28,7 +28,7 @@ get_header(); ?>
 
            <?php the_content(); ?>
 
-           <p><strong><a href="<?php the_permalink(); ?>">Site Link</a></strong></p>
+           <p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
       </aside>
 
       <div class="case-study-images">
