@@ -54,8 +54,14 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 
-
-
 	</div><!-- #primary -->
 
+	<nav id="navigation" class="container">
+		<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
+	</nav>
+
+
 <?php get_footer(); ?>
+<div id="social-icons">
+<?php echo do_shortcode('[aps-social id="1"]')?>
+</div>
