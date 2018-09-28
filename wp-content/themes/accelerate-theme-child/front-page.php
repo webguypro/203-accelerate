@@ -45,6 +45,28 @@ get_header(); ?>
 	</div>
 </section>
 
+<section class="about-us">
+	<div class="site-content">
+		<h3>Our Services</h3>
+		<ul class="homepage-our-services">
+		 <?php query_posts('posts_per_page=4&post_type=our_services'); ?>
+			 <?php while ( have_posts() ) : the_post();
+						 $image_1 = get_field("image_1");
+						$size = "medium";
+		 ?>
+		 <li class="individual-our-services">
+			 <figure>
+					 <?php echo wp_get_attachment_image($image_1, $size); ?>
+			 </figure>
+						<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+		 </li>
+		 <?php endwhile; ?>
+		<?php wp_reset_query(); ?>
+	</ul>
+</div>
+</section>
+
+
 	<section class="recent-posts">
 		<div class="site-content">
 			<div class="blog-post">

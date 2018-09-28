@@ -26,6 +26,9 @@ Text Domain:  accelerate-theme-child
   margin: 0 10px;
 }
 
+
+/* contact page */
+
 #menu-social-media-nav ul {
   list-style-type: none;
 
@@ -45,17 +48,7 @@ Text Domain:  accelerate-theme-child
     line-height: 15px;
     margin-right: 5px;
 }
-#menu-item-47430 {
-  background: black;
-  padding: 10px;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 15px;
 
-}
 ._mi.dashicons.dashicons-twitter {
       color: white;
       font-size: 1.5em;
@@ -63,33 +56,14 @@ Text Domain:  accelerate-theme-child
       vertical-align: middle;
       }
 
-#menu-item-47426 {
-  background: black;
-  padding: 10px;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 15px;
 
-}
 ._mi.dashicons.dashicons-facebook-alt {
   color: white;
   font-size: 1.5em;
   text-align: center;
   vertical-align: middle;
 }
-#menu-item-47427 {
-  background: black;
-  padding: 10px;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 15px;
-}
+
 ._mi.fa.fa-linkedin {
   color: white;
   font-size: 1.5em;
@@ -97,7 +71,117 @@ Text Domain:  accelerate-theme-child
   vertical-align: middle;
 }
 
-/* blog post on homepage*/
+.contact .main-content h2 {
+   font-size: 1.8em;
+}
+.contact .main-content {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.nf-field-label {
+    font-size: .85em;
+    color: grey;
+    font-weight: bold;
+}
+
+
+#nf-field-4.ninja-forms-field.nf-element {
+  background: none repeat scroll 0 0 #45ac9d;
+  float: right;
+}
+
+/* about page */
+
+.individual-our-services {
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  padding-left: 15px;
+}
+.page-id-47525 {
+background: url("img/taxi-photo.jpg") no-repeat center / cover rgba(0, 0, 0, 0) ;
+
+}
+.homepage-our-services ul {
+   display: inline;
+}
+.about-us {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.site-content h3 {
+    text-align: center;
+     padding-top: 20px;
+}
+
+article.our-service {
+   margin: 40px 0 0;
+
+}
+aside.our-service-sidebar {
+     float: left;
+    width: 314px;
+    margin: 0 40px 0 0;
+}
+
+aside.our-service-sidebar a {
+    color: #45ac9d;
+}
+aside.our-service-sidebar h5 {
+    color: #d4d4d4;
+    font-size: 14px;
+}
+
+aside.our-service-sidebar p a {
+      font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+      font-size: 14px;
+}
+div.our-service-images {
+    float: left;
+    width: 600px;
+}
+div.our-service-images img {
+      margin-bottom: 50px;
+      border: 1px solid #ddd;
+
+
+}
+
+.featured-work h3 {
+   text-align: center;
+}
+.individual-featured-work {
+    list-style-type: none;
+    float: left;
+    padding-left: 10px;
+
+}
+.individual-featured-work  {
+    width:
+}
+
+
+.recent-posts h6 {
+     color: #45ac9d;
+
+}
+
+  .main-content {
+     vertical-align: top;
+     padding: 0 0 0 0;
+  }
+
+.main-content h1 {
+  color: white;
+}
+.main-content h2 {
+display: none;
+}
+
+/* blog post on homepage */
 
 .blog-post {
 	width: 44.75%;

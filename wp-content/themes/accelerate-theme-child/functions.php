@@ -28,6 +28,18 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+		register_post_type( 'our_services',
+ 	     array(
+				     'labels' => array(
+                 'name' => __( 'Our Services' ),
+                 'singular_name' => __( 'Our Service' )
+             ),
+ 						'public' => true,
+              'has_archive' => true,
+              'rewrite' => array( 'slug' => 'our-services' ),
+          )
+      );
+
 }
 add_action( 'init', 'create_custom_post_types' );
 
@@ -44,4 +56,13 @@ function skillcrushstarter_comments($comment, $args, $depth) {
 	$comment .= '</li>';
 
 	echo $comment;
+}
+
+add_filter( 'body_class', 'accelerate_body_classes' );
+function accelerate_body_classes( $classes ) {
+
+	if ( is_page( 'contact-us' ) ) {
+		$classes[] = 'contact';
+	}
+	     return $classes;
 }

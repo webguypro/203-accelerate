@@ -2,11 +2,6 @@
 /**
  * The template for displaying case studies
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
  * @package WordPress
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 2.0
@@ -57,7 +52,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 	<nav id="navigation" class="container">
-		<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to work</span></a></div>
+		<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to about</span></a></div>
 	</nav>
 
 
