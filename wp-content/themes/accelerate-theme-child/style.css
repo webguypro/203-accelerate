@@ -100,87 +100,47 @@ Text Domain:  accelerate-theme-child
   float: left;
   padding-left: 15px;
 }
-.page-id-47525 {
-background: url("img/taxi-photo.jpg") no-repeat center / cover rgba(0, 0, 0, 0) ;
+
+/*.page-id-47535 {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+
+}*/
+
+div.about-services.clearfix {
+      display: flex;
+}
+.our-service-sidebar h2 {
+   display: none;
+}
+.about-description {
+  margin-left: 380px;
+  margin-right: 420px;
+}
+.about-description h2 {
+    color: white;
+    font-size: 32px;
+}
+.our-services {
 
 }
-.homepage-our-services ul {
-   display: inline;
-}
-.about-us {
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
-
-.site-content h3 {
+.our-services h2 {
     text-align: center;
-     padding-top: 20px;
+}
+.our-services p {
+  font-size: 24px;
+  line-height: 100% ;
+  text-align: center;
 }
 
-article.our-service {
-   margin: 40px 0 0;
-
+.individual-our-services li {
+  float: right;
 }
-aside.our-service-sidebar {
-     float: left;
-    width: 314px;
-    margin: 0 40px 0 0;
+.individual-our-services img {
+   float: left;
 }
-
-aside.our-service-sidebar a {
-    color: #45ac9d;
+.our-service-sidebar {
+  float: left;
 }
-aside.our-service-sidebar h5 {
-    color: #d4d4d4;
-    font-size: 14px;
-}
-
-aside.our-service-sidebar p a {
-      font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-      font-size: 14px;
-}
-div.our-service-images {
-    float: left;
-    width: 600px;
-}
-div.our-service-images img {
-      margin-bottom: 50px;
-      border: 1px solid #ddd;
-
-
-}
-
-.featured-work h3 {
-   text-align: center;
-}
-.individual-featured-work {
-    list-style-type: none;
-    float: left;
-    padding-left: 10px;
-
-}
-.individual-featured-work  {
-    width:
-}
-
-
-.recent-posts h6 {
-     color: #45ac9d;
-
-}
-
-  .main-content {
-     vertical-align: top;
-     padding: 0 0 0 0;
-  }
-
-.main-content h1 {
-  color: white;
-}
-.main-content h2 {
-display: none;
-}
-
 /* blog post on homepage */
 
 .blog-post {

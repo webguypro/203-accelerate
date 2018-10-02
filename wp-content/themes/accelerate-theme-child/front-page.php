@@ -54,7 +54,7 @@ get_header(); ?>
 						 $image_1 = get_field("image_1");
 						$size = "medium";
 		 ?>
-		 <li class="individual-our-services">
+		 <li class="individual-featured-work">
 			 <figure>
 					 <?php echo wp_get_attachment_image($image_1, $size); ?>
 			 </figure>
