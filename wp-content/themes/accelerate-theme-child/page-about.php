@@ -61,12 +61,16 @@ get_header(); ?>
 								<h4><a href="<?php the_permalink(); ?>"><?php the_content(); ?></a></h4>
 
  				 </li>
-				
+
  				 <?php endwhile; ?>
  				<?php wp_reset_query(); ?>
  			</ul>
 		</div>
 	</section>
 
+   <div class="interested-contact clearfix">
+		 <a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a><h3>Interested in working with us?</h3>
+
+	<div>
 
 <?php get_footer(); ?>

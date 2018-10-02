@@ -26,6 +26,10 @@ Text Domain:  accelerate-theme-child
   margin: 0 10px;
 }
 
+footer#colophon.site-footer.clearfix {
+  width: 960px;
+
+}
 
 /* contact page */
 
@@ -95,10 +99,7 @@ Text Domain:  accelerate-theme-child
 
 .individual-our-services {
   list-style-type: none;
-  text-align: center;
-  vertical-align: middle;
-  float: left;
-  padding-left: 15px;
+
 }
 
 /*.page-id-47535 {
@@ -107,40 +108,94 @@ Text Domain:  accelerate-theme-child
 }*/
 
 div.about-services.clearfix {
-      display: flex;
+    width: 1200px;
+
 }
 .our-service-sidebar h2 {
    display: none;
 }
 .about-description {
-  margin-left: 380px;
   margin-right: 420px;
+  margin-left: 420px;
 }
 .about-description h2 {
     color: white;
     font-size: 32px;
+
 }
-.our-services {
+div.about-services.clearfix {
 
 }
 .our-services h2 {
     text-align: center;
 }
 .our-services p {
-  font-size: 24px;
-  line-height: 100% ;
+  font-size: 22px;
+  line-height: 5px;
   text-align: center;
 }
+.our-services h4 {
+      font-size: 28px;
 
-.individual-our-services li {
-  float: right;
 }
-.individual-our-services img {
-   float: left;
+.our-services h6 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  font-weight: normal;
 }
-.our-service-sidebar {
-  float: left;
+li.individual-our-services {
+  padding-bottom: 90px;
 }
+
+.individual-our-services:nth-child(1) img {
+    float: left;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+.individual-our-services:nth-child(2) img {
+    float: right;
+    margin-left: 120px;
+}
+.individual-our-services:nth-child(3) img {
+    float: left;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+.individual-our-services:nth-child(4) img {
+    float: right;
+    margin-left: 120px;
+}
+li.individual-our-services {
+  margin-right: 120px;
+  margin-left: 40px;
+
+}
+.interested-contact  {
+    max-width: 960px;
+  	justify-content: center;
+  	align-items: center;
+    display: block;
+    clear: both;
+    margin-left: 250px;
+  	padding-top: 2em;
+  	border-top: 1px solid #bbb;
+}
+
+.interested-contact .button {
+	float: right;
+  clear: both;
+  margin-top: 30px;
+  margin-right: 120px;
+
+}
+.interested-contact h3 {
+     margin-left: 230px;
+     margin-bottom: 60px;
+     font-size: 22px;
+}
+
 /* blog post on homepage */
 
 .blog-post {
