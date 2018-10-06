@@ -13,6 +13,11 @@ Text Domain:  accelerate-theme-child
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
+.homepage-our-services h3 {
+     text-align: center;
+
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -101,7 +106,9 @@ footer#colophon.site-footer.clearfix {
   list-style-type: none;
 
 }
-
+div.services {
+  margin-right: 220px;
+}
 /*.page-id-47535 {
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 
@@ -144,14 +151,22 @@ div.about-services.clearfix {
   text-align: left;
   font-weight: normal;
 }
+li.individual-featured-work {
+     padding-bottom: 20px;
+}
 li.individual-our-services {
-  padding-bottom: 90px;
+    padding-bottom: 50px;
+}
+.individual-featured-work h4 {
+        padding-bottom: 90px;
+        text-align: center;
 }
 
 .individual-our-services:nth-child(1) img {
     float: left;
     margin-right: 120px;
     margin-top: 20px;
+    padding-bottom: 40px;
 }
 
 .individual-our-services:nth-child(2) img {
@@ -162,14 +177,13 @@ li.individual-our-services {
     float: left;
     margin-right: 120px;
     margin-top: 100px;
+    padding-bottom: 40px;
 }
 .individual-our-services:nth-child(4) img {
     float: right;
     margin-left: 120px;
 }
-li.individual-our-services {
-  margin-right: 120px;
-  margin-left: 40px;
+li.individual-featured-work {
 
 }
 .interested-contact  {
@@ -198,6 +212,9 @@ li.individual-our-services {
 
 /* blog post on homepage */
 
+div.blog-post {
+  padding-top:
+}
 .blog-post {
 	width: 44.75%;
 	float: left;
@@ -275,6 +292,48 @@ div.case-study-images img {
 .recent-posts h6 {
      color: #45ac9d;
 
+}
+
+/* 404-Page */
+
+.site-content-404 {
+   margin-left: 200px;
+}
+.site-content-404 h1 {
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+.site-content-404 h1 {
+  font-size: 34px;
+}
+.site-content-404 h4 {
+  font-size: 22px;
+}
+
+/* Mailchimp */
+
+aside#mc4wp_form_widget-2.input {
+    color: #45ac9d;
+}
+
+/* TWITTER FEED */
+
+div#secondary.widget-area {
+   float: left;
+   padding-top:
+   padding-left: 25px;
+
+}
+div#secondary.widget-area h3 {
+    color: #a6a6a6;
+}
+div#secondary.widget-area h6 {
+    color: #45ac9d;
+    padding-top:
+    padding-left: 25px;
+}
+aside#pi_simpletwittertweets-2 ul {
+        list-style-type: none;
 }
 
 /* SINGLE POST STYLES */

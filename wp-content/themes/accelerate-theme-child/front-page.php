@@ -47,9 +47,11 @@ get_header(); ?>
 
 <section class="about-us">
 	<div class="site-content">
-		<h3>Our Services</h3>
+
 		<ul class="homepage-our-services">
+
 		 <?php query_posts('posts_per_page=4&post_type=our_services'); ?>
+		 <h3>Our Services</h3>
 			 <?php while ( have_posts() ) : the_post();
 						 $image_1 = get_field("image_1");
 						$size = "medium";
@@ -78,9 +80,21 @@ get_header(); ?>
 		<h6><a href="<?php echo $link; ?>">Read More ></a></h6>
 	<?php endwhile; ?>
 
+
  <?php wp_reset_query(); ?>
 			</div>
+
+
+
+
 		</div>
 	</section>
+
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	<h6><a href="<?php echo $link; ?>">Follow Us ></a></h6>
+	</div>
+	<?php endif; ?>
 
 <?php get_footer(); ?>
