@@ -79,6 +79,10 @@ footer#colophon.site-footer.clearfix {
   text-align: center;
   vertical-align: middle;
 }
+.page-id-47433 div.main-content {
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
 .contact .main-content h2 {
    font-size: 1.8em;
@@ -98,10 +102,19 @@ footer#colophon.site-footer.clearfix {
 #nf-field-4.ninja-forms-field.nf-element {
   background: none repeat scroll 0 0 #45ac9d;
   float: right;
+
 }
 
 /* about page */
 
+.about-description.clearfix {
+    height: 230px;
+    text-align:center;
+
+  }
+  .about-description.clearfix h2 {
+
+}
 .individual-our-services {
   list-style-type: none;
 
@@ -109,10 +122,6 @@ footer#colophon.site-footer.clearfix {
 div.services {
   margin-right: 220px;
 }
-/*.page-id-47535 {
-  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-
-}*/
 
 div.about-services.clearfix {
     width: 1200px;

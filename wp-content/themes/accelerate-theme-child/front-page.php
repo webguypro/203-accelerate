@@ -92,7 +92,9 @@ get_header(); ?>
 
 	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 	<div id="secondary" class="widget-area" role="complementary">
+
 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		
 	<h6><a href="<?php echo $link; ?>">Follow Us ></a></h6>
 	</div>
 	<?php endif; ?>
