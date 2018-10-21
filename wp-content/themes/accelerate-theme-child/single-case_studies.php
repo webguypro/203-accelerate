@@ -30,6 +30,7 @@ get_header(); ?>
 
 	       <?php the_content(); ?>
 
+
          <p><strong><a href="<?php echo $link; ?>">View Project ></a></strong></p>
     </aside>
 
@@ -43,10 +44,13 @@ get_header(); ?>
 			  <?php if($image_3) {
          echo wp_get_attachment_image( $image_3, $size );
        }?>
+
 	  </div>
 
           </article>
+
 			<?php endwhile; // end of the loop. ?>
+
 		</div><!-- .main-content -->
 
 	</div><!-- #primary -->
@@ -58,5 +62,5 @@ get_header(); ?>
 
 <?php get_footer(); ?>
 <div id="social-icons">
-<?php echo do_shortcode('[aps-social id="1"]')?>
+<?php echo do_shortcode('')?>
 </div>

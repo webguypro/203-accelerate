@@ -9,15 +9,405 @@ Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
 */
+
+/* Mobile Phones */
+@media (max-width: 599px) {
+
+/* Homepage */
+
+.main-content {
+  margin-top: -150px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.main-content h1 {
+    padding-bottom: 0px;
+}
+.main-content h3 {
+  padding-bottom: 60px;
+}
+.homepage-featured-work {
+     list-style: none;
+}
+.homepage-our-services h3 {
+      padding-bottom: 20px;
+      font-size: 28px;
+}
+.site-content h3 {
+    text-align: center;
+    font-size: 28px;
+}
+.blog-post h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.homepage-our-services {
+     list-style: none;
+}
+
+#secondary.widget-area {
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.tweets {
+  list-style: none;
+}
+ #menu-social-media-nav {
+     list-style: none;
+     text-align: center;
+     vertical-align: middle;
+
+}
+#menu-social-media-nav li {
+      display: inline;
+      padding-left: 8px;
+      padding-right: 8px;
+
+}
+
+/* Case Studies */
+
+.archive .sfsi_socialwpr {
+  display: none;
+}
+div#social-icons {
+    display: none;
+}
+
+/* About */
+
+.about-description {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.our-service-sidebar h2 {
+     display: none;
+}
+
+.sfsi_socialwpr {
+  display: none;
+}
+div.services {
+  padding-bottom: 50px;
+}
+#our-services-top h3 {
+     text-decoration: underline;
+}
+.interested-contact .button {
+    margin-left: 80px;
+}
+.interested-contact h3 {
+    margin-left: 50px;
+}
+
+
+/* Blog */
+
+#post-47394 {
+    margin-top: 160px;
+}
+
+.single-page .entry-header {
+    margin-top: 160px;
+}
+
+#post-47329 {
+    margin-top: 160px;
+}
+
+/* Contact */
+
+.page-id-47433 div.main-content {
+    margin-top: 20px;
+}
+input#nf-field-4 {
+   margin-left: 20px;
+}
+
+/* 404 Page */
+
+.error404 .main-content {
+    margin-top: 45px;
+}
+.site-content-404 h1 {
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+}
+/* Tablet Portrait */
+@media (min-width: 600px) and (max-width: 959px) {
+
+/* Homepage */
+
+.homepage-featured-work {
+       list-style: none;
+       margin-left: 170px;
+
+}
+.site-content h3 {
+      text-align: center;
+      font-size: 30px;
+      text-decoration: underline;
+      padding-bottom: 20px;
+}
+.site-content h4 {
+     margin-top: -12px;
+     padding-bottom: 20px;
+
+}
+.homepage-our-services {
+     list-style: none;
+}
+.homepage-our-services h4 {
+   padding-top: 15px;
+
+}
+.homepage-our-services li {
+     display: inline-block;
+     margin-left: 60px;
+}
+.blog-post h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.blog-post h3 {
+   text-decoration: none;
+   font-size: 24px;
+}
+#secondary.widget-area {
+   margin-left: 100px;
+}
+#menu-social-media-nav {
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#menu-social-media-nav li {
+     display: inline;
+     padding-left: 8px;
+     padding-right: 8px;
+
+}
+
+/* Case Studies */
+.archive .sfsi_socialwpr {
+  display: none;
+}
+.case-study-sidebar h2 {
+   text-decoration: underline;
+}
+
+/* About */
+
+.about-description h2 {
+     color: white;
+     margin-top: -80px;
+     margin-left: 35px;
+     margin-right: 35px;
+}
+#our-services-top h6 {
+  text-align: center;
+}
+.our-service-sidebar h2 {
+     display: none;
+}
+.our-services .sfsi_socialwpr {
+     display: none;
+}
+.interested-contact a.button {
+    margin-left: 265px;
+}
+.interested-contact h3 {
+   text-align: center;
+}
+div#sidebar {
+   display: none;
+}
+.homepage-our-services h4 {
+   margin-top: 20px;
+}
+
+/* 404 Page */
+
+.error404 .main-content {
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.site-content-404 h1 {
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+}
+/* Tablet Landscape */
+@media (min-width: 960px) and (max-width: 1199px) {
+
+  /* Homepage */
+
+div#primary.home-page.hero-content {
+  margin-left: -100px;
+
+}
+div.main-content {
+    margin-top: -150px;
+  }
+
+.homepage-featured-work li {
+         list-style: none;
+         margin-left: 250px;
+}
+.site-content h3 {
+      text-align: center;
+      font-size: 30px;
+      text-decoration: underline;
+      padding-bottom: 20px;
+}
+.site-content h4 {
+     margin-top: -12px;
+     padding-bottom: 20px;
+
+}
+.homepage-our-services li {
+     display: inline-block;
+     margin-left: 100px;
+}
+.blog-post h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+.blog-post h3 {
+   text-decoration: none;
+   font-size: 24px;
+}
+#secondary.widget-area {
+   margin-left: 100px;
+}
+#menu-social-media-nav {
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#menu-social-media-nav li {
+     display: inline;
+     padding-left: 8px;
+     padding-right: 8px;
+
+}
+
+/* Case Studies */
+.archive .sfsi_socialwpr {
+  display: none;
+}
+.case-study-sidebar h2 {
+   text-decoration: underline;
+}
+#main.site-main {
+  margin-left: 100px;
+}
+
+/* About */
+
+.about-description h2 {
+     color: white;
+     margin-top: 80px;
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 28px;
+     padding-bottom: 120px;
+}
+.our-service-sidebar h2 {
+     display: none;
+}
+.our-services .sfsi_socialwpr {
+     display: none;
+}
+.interested-contact a.button {
+    margin-left: 330px;
+}
+.interested-contact h3 {
+   text-align: center;
+}
+#our-services-top h6 {
+  text-align: center;
+}
+.homepage-our-services h4 {
+   margin-top: 20px;
+}
+
+/* Contact */
+
+.page-id-47433 div.main-content {
+    margin-top: 15px;
+}
+
+/* Blog */
+
+#post-47394 {
+    margin-top: 160px;
+}
+#post-47329 {
+    margin-top: 160px;
+}
+
+.single-page .entry-header {
+    margin-top: 160px;
+}
+
+/* 404 Page */
+
+.error404 .main-content {
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.site-content-404 h1 {
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+/* Homepage */
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
 .homepage-our-services h3 {
      text-align: center;
-
+}
+div.page-header.clearfix {
+  margin-left: 270px;
 }
 
+nav#primary-navigation {
+    margin-left: 0px;
+    margin-right: -250px;
+}
+
+#masthead.title {
+   padding-right: 80px;
+
+}
+.page-id-47375 div.main-content {
+  margin-top: -80px;
+}
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -25,10 +415,21 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
+div#primary.home-page.hero-content {
+    height: 300px;
+
+}
 
 #masthead nav ul li {
   float: left;
   margin: 0 10px;
+}
+div.blog-post {
+  height: 390px;
+}
+h3.widget-title a {
+     color: black;
+     font-size: 24px;
 }
 
 footer#colophon.site-footer.clearfix {
@@ -40,7 +441,11 @@ footer#colophon.site-footer.clearfix {
 
 #menu-social-media-nav ul {
   list-style-type: none;
+  padding-left: 20px;
 
+}
+div.menu-social-media-nav-container {
+     padding-left: 30px;
 }
 .social-media-menu ul li {
      padding-right: 2em;
@@ -50,12 +455,13 @@ footer#colophon.site-footer.clearfix {
     background: black;
     padding: 10px;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 12px;
     text-align: center;
     vertical-align: middle;
     line-height: 15px;
     margin-right: 5px;
+
 }
 
 ._mi.dashicons.dashicons-twitter {
@@ -84,9 +490,7 @@ footer#colophon.site-footer.clearfix {
   margin-right: 150px;
 }
 
-.contact .main-content h2 {
-   font-size: 1.8em;
-}
+
 .contact .main-content {
   margin-left: 150px;
   margin-right: 150px;
@@ -107,13 +511,26 @@ footer#colophon.site-footer.clearfix {
 
 /* about page */
 
-.about-description.clearfix {
-    height: 230px;
-    text-align:center;
+div#primary.home-page.hero-content {
+        height: 470px;
+}
+div#main.site-main.clearfix {
+      height:85%;
+}
+div#our-services-top h2 {
+   font-size: 18px;
+}
+#our-services-top h3 {
+    text-align: center;
+}
+.page-id-47535 .sfsi_socialwpr {
+      display: none;
+}
 
-  }
   .about-description.clearfix h2 {
-
+       font-size: 31px;
+       text-align: center;
+       margin-top: -30px;
 }
 .individual-our-services {
   list-style-type: none;
@@ -136,36 +553,32 @@ div.about-services.clearfix {
 }
 .about-description h2 {
     color: white;
-    font-size: 32px;
-
-}
-div.about-services.clearfix {
+    font-size: 45px;
+    line-height: 50px;
 
 }
 .our-services h2 {
     text-align: center;
 }
-.our-services p {
-  font-size: 22px;
-  line-height: 5px;
-  text-align: center;
-}
 .our-services h4 {
       font-size: 28px;
 
 }
+#our-services-top h6 {
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+
+}
+
 .our-services h6 {
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 27px;
   text-align: left;
   font-weight: normal;
+  padding-bottom: 30px;
 }
-li.individual-featured-work {
-     padding-bottom: 20px;
-}
-li.individual-our-services {
-    padding-bottom: 50px;
-}
+
 .individual-featured-work h4 {
         padding-bottom: 90px;
         text-align: center;
@@ -173,28 +586,27 @@ li.individual-our-services {
 
 .individual-our-services:nth-child(1) img {
     float: left;
-    margin-right: 120px;
+    margin-right: 80px;
     margin-top: 20px;
     padding-bottom: 40px;
 }
 
 .individual-our-services:nth-child(2) img {
     float: right;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 .individual-our-services:nth-child(3) img {
     float: left;
-    margin-right: 120px;
+    margin-right: 90px;
     margin-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom:
 }
 .individual-our-services:nth-child(4) img {
     float: right;
-    margin-left: 120px;
+    margin-left: 80px;
+    padding-bottom: 20px;
 }
-li.individual-featured-work {
 
-}
 .interested-contact  {
     max-width: 960px;
   	justify-content: center;
@@ -202,32 +614,40 @@ li.individual-featured-work {
     display: block;
     clear: both;
     margin-left: 250px;
-  	padding-top: 2em;
+  	padding-top: 2.5em;
   	border-top: 1px solid #bbb;
 }
 
 .interested-contact .button {
 	float: right;
   clear: both;
-  margin-top: 30px;
-  margin-right: 120px;
+  margin-top: 0px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  -webkit-appearance: none;
+    -moz-appearance: none;
 
 }
 .interested-contact h3 {
      margin-left: 230px;
-     margin-bottom: 60px;
+     text-align: center;
      font-size: 22px;
+     margin-top: 10px;
+     margin-bottom:  50px;
+     -webkit-appearance: none;
+    -moz-appearance: none;
+}
+div.interested-contact.clearfix {
+  -webkit-appearance: none;
+      -moz-appearance: none;
 }
 
 /* blog post on homepage */
 
-div.blog-post {
-  padding-top:
-}
 .blog-post {
 	width: 44.75%;
 	float: left;
-	margin-bottom: 2em;
+	margin-bottom: 35px;
   padding-right: 50px;
 }
 .blog-post h3 {
@@ -238,7 +658,7 @@ div.blog-post {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 2em 0 .5em;
+
 }
 .blog-post .read-more-link {
 	font-family: 'Montserrat';
@@ -246,12 +666,15 @@ div.blog-post {
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+.blog-post p {
+   line-height: 1.5em;
+   font-size: 17px;
+}
 
 /* Case Studies */
 
-article.case-study {
-   margin: 40px 0 0;
-
+.archive .sfsi_socialwpr {
+  display: none;
 }
 aside.case-study-sidebar {
      float: left;
@@ -293,10 +716,6 @@ div.case-study-images img {
     padding-left: 10px;
 
 }
-.individual-featured-work  {
-    width:
-}
-
 
 .recent-posts h6 {
      color: #45ac9d;
@@ -453,3 +872,4 @@ aside#pi_simpletwittertweets-2 ul {
 	float: right;
 }
 /* End SINGLE POST STYLES */
+}

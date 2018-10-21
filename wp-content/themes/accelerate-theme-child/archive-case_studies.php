@@ -28,6 +28,7 @@ get_header(); ?>
            <?php the_content(); ?>
 
            <p><strong><a href="<?php the_permalink(); ?>">VIEW PROJECT ></a></strong></p>
+
       </aside>
 
       <div class="case-study-images">
@@ -36,6 +37,7 @@ get_header(); ?>
               echo wp_get_attachment_image( $image_1, $size );
           }?>
 				</a>
+				
       </div>
 
             </article>

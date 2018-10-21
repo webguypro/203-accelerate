@@ -39,10 +39,11 @@ get_header(); ?>
 
 	<section class="our-services">
 		<div class="site-content">
-	    <h2>Our Services</h3>
-			<p>We take pride in our clients and the content we create for them.</p>
-			<p> Here's a brief overivew of our offered services.</p>
-
+			<div id="our-services-top">
+	    <h3>OUR SERVICES</h3>
+			<h6>We take pride in our clients and the content we create for them.<br>
+			Here's a brief overivew of our offered services.</h6>
+		 </div>
 
      <div class="about-services clearfix">
 			 <div class="services">

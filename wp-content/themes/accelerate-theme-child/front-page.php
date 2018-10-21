@@ -60,7 +60,7 @@ get_header(); ?>
 			 <figure>
 					 <?php echo wp_get_attachment_image($image_1, $size); ?>
 			 </figure>
-						<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+						<h4><a href="https://webguypro.com/accelerate/about/"><?php the_title(); ?></a></h4>
 		 </li>
 		 <?php endwhile; ?>
 		<?php wp_reset_query(); ?>
@@ -90,12 +90,17 @@ get_header(); ?>
 		</div>
 	</section>
 
+
+
 	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+
 	<div id="secondary" class="widget-area" role="complementary">
+	<h3>Recent Tweet</h3>
 
 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		
+
 	<h6><a href="<?php echo $link; ?>">Follow Us ></a></h6>
+
 	</div>
 	<?php endif; ?>
 
