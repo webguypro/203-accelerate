@@ -255,12 +255,10 @@ div#sidebar {
 
 div#primary.home-page.hero-content {
   margin-left: -100px;
-
 }
 div.main-content {
     margin-top: -150px;
-  }
-
+}
 .homepage-featured-work li {
          list-style: none;
          margin-left: 250px;
@@ -376,7 +374,9 @@ div.main-content {
     font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
     font-weight: 100;
 }
-
+ul#menu-top-nav.nav-menu {
+      overflow: hidden;
+}
 
 }
 
@@ -393,16 +393,26 @@ div.main-content {
      text-align: center;
 }
 div.page-header.clearfix {
-  margin-left: 270px;
+  margin-left: 250px;
+  margin-right: 0;
+}
+span.title {
+     margin-right: -50px;
+}
+div.menu-top-nav-container {
+         overflow: hidden;
 }
 
 nav#primary-navigation {
-    margin-left: 0px;
-    margin-right: -250px;
+    margin-left: 200px;
+    margin-right: 20px;
 }
-
-#masthead.title {
-   padding-right: 80px;
+ul#menu-top-nav.nav-menu {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+}
+div.page-header.clearfix {
 
 }
 .page-id-47375 div.main-content {
@@ -419,7 +429,6 @@ div#primary.home-page.hero-content {
     height: 300px;
 
 }
-
 #masthead nav ul li {
   float: left;
   margin: 0 10px;
