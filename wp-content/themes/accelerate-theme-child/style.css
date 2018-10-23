@@ -106,10 +106,17 @@ div.services {
 
 /* Blog */
 
+.blog div.main-content {
+      margin-left: 0;
+      margin-right: 0;
+}
+.single-page div.main-content {
+  margin-left: 0;
+  margin-right: 0;
+}
 #post-47394 {
     margin-top: 160px;
 }
-
 .single-page .entry-header {
     margin-top: 160px;
 }

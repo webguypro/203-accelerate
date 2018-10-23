@@ -56,10 +56,10 @@ get_header(); ?>
  				 ?>
  				 <li class="individual-our-services">
 
- 							 <?php echo wp_get_attachment_image($image_1, $size); ?>
+ 							  <a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image_1, $size); ?></a>
 
  								<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-								<h4><a href="<?php the_permalink(); ?>"><?php the_content(); ?></a></h4>
+								<h4><?php the_content(); ?></h4>
 
  				 </li>
 
