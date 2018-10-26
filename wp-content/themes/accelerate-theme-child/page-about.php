@@ -13,25 +13,13 @@ get_header(); ?>
 		<div class="main-content" role="main">
 
 			<div class="about-description clearfix">
-				<h2>Accelerate is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile. </h2>
+			<?php while ( have_posts() ) : the_post(); ?>
+					<?php the_content(); ?>
+						<?php endwhile; // end of the loop. ?>
 			</div>
 
-			<?php while ( have_posts() ) : the_post();
-         $services = get_field('services');
-         $image_1 = get_field('image_1');
-         $image_2 = get_field('image_2');
-         $image_3 = get_field('image_3');
-         $image_4 = get_field('image_4'); ?>
 
-				 <article class="our-service">
-	         <?php $size = "full"; ?>
-	         <aside class="our-service-sidebar">
-	         	<h2><?php the_title(); ?></h2>
-	           <h5><?php echo $services; ?></h5>
 
-			  <h2><?php the_title(); ?></h2>
-				<?php the_content(); ?>
-			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 
 	</div><!-- #primary -->

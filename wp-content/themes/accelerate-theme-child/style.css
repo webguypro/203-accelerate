@@ -14,7 +14,16 @@ Text Domain:  accelerate-theme-child
 @media (max-width: 599px) {
 
 /* Homepage */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
 
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
 .main-content {
   margin-top: -150px;
   margin-right: 50px;
@@ -149,7 +158,16 @@ input#nf-field-4 {
 @media (min-width: 600px) and (max-width: 959px) {
 
 /* Homepage */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
 
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
 .homepage-featured-work {
        list-style: none;
        margin-left: 170px;
@@ -259,7 +277,16 @@ div#sidebar {
 @media (min-width: 960px) and (max-width: 1199px) {
 
   /* Homepage */
+  .home-page {
+      background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  }
+  #masthead {
+      background: none repeat scroll 0 0 #45ac9d;
+  }
 
+  .button {
+  	background: none repeat scroll 0 0 #45ac9d;
+  }
 div#primary.home-page.hero-content {
   margin-left: -100px;
 }
@@ -538,6 +565,9 @@ div#our-services-top h2 {
 }
 #our-services-top h3 {
     text-align: center;
+}
+.our_services-template-default #navigation {
+  display: none;
 }
 .page-id-47535 .sfsi_socialwpr {
       display: none;
